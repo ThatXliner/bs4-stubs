@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "bs4-stubs"
 version = "0.1.0"
-license = "GPL-3.0-or-later"
+license = "MIT"
 description = ""
 authors = ["Bryan Hu <bryan.hu.2020@gmail.com>"]
 

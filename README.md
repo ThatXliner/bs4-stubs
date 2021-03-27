@@ -12,3 +12,9 @@ It's just that mypy gets crazy when I use it (complaining about [Any](https://do
 
 [pep484]: https://www.python.org/dev/peps/pep-0484/
 [stubgen]: https://mypy.readthedocs.io/en/latest/stubgen.html
+
+## How to contribute
+
+Please contibute! Mypy's stubgen is flawed and many type annotations needs fixing. The easiest way (as I can think of) is to
+ - Run `mypy strict bs4-stubs` on this repo and fix the errors
+ - Contribute to this repo when a type annotation needs fixing (e.g. object `x` needs proper type annotation because mypy is ruining my project)

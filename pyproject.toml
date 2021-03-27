@@ -4,6 +4,7 @@ version = "0.1.0"
 license = "MIT"
 description = ""
 authors = ["Bryan Hu <bryan.hu.2020@gmail.com>"]
+packages = [{ include = "bs4-stubs" }]
 
 [tool.poetry.dependencies]
 python = "^3.6"

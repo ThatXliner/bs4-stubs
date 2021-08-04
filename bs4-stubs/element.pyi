@@ -5,7 +5,7 @@ from bs4.formatter import Formatter, HTMLFormatter, XMLFormatter
 from typing import Any, Optional, overload, Literal, TypeVar, NoReturn
 
 T = TypeVar("T")
-Self = TypeVar("T", bound=Tag)
+Self = TypeVar("Self", bound=Tag)
 NameType = str | Callable | re.Pattern | bool | Literal[None]
 DEFAULT_OUTPUT_ENCODING: str
 PY3K: Any

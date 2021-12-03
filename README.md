@@ -1,3 +1,5 @@
+**NOTE:** I later found out [this exists](https://github.com/python/typeshed/tree/master/stubs/beautifulsoup4). But I don't know, maybe this has something typeshed doesn't. But I recommend typeshed's version over this experiment.
+
 # bs4-stubs
 
 [PEP 484 type hint][pep484] [stubs](https://mypy.readthedocs.io/en/latest/stubs.html) for [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) originally generated with [stubgen](stubgen). This is mainly for people who use tools like [MyPy](http://github.com/python/mypy).
